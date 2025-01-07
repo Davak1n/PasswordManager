@@ -13,6 +13,8 @@
           );
             QLineEdit *fieldTitleOfAccount = new QLineEdit("Title of account", this);
             fieldTitleOfAccount->setReadOnly(1);
+            connect(fieldTitleOfAccount, &QLineEdit::selectionChanged, [=]() {fieldTitleOfAccount->setSelection(0, 0);
+            });
             fieldTitleOfAccount->setCursor(Qt::PointingHandCursor);
             fieldTitleOfAccount->setGeometry(25, 20, 690, 78.86);
             fieldTitleOfAccount->setStyleSheet(
@@ -35,6 +37,8 @@
             );
             QLineEdit *fieldUserName = new QLineEdit("Username", this);
             fieldUserName->setReadOnly(1);
+            connect(fieldUserName, &QLineEdit::selectionChanged, [=]() {fieldUserName->setSelection(0, 0);
+            });
             fieldUserName->setCursor(Qt::PointingHandCursor);
             fieldUserName->setGeometry(25, 199, 690, 78.86);
             fieldUserName->setStyleSheet(
@@ -57,6 +61,8 @@
             );
             QLineEdit *fieldPasword = new QLineEdit("Password", this);
             fieldPasword->setReadOnly(1);
+            connect(fieldPasword, &QLineEdit::selectionChanged, [=]() {fieldPasword->setSelection(0, 0);
+            });
             fieldPasword->setCursor(Qt::PointingHandCursor);
             fieldPasword->setGeometry(25, 299.86, 690, 78.86);
             fieldPasword->setStyleSheet(
@@ -79,6 +85,8 @@
             );
             QLineEdit *fieldSite = new QLineEdit("Site", this);
             fieldSite->setReadOnly(1);
+            connect(fieldSite, &QLineEdit::selectionChanged, [=]() {fieldSite->setSelection(0, 0);
+            });
             fieldSite->setCursor(Qt::PointingHandCursor);
             fieldSite->setGeometry(25, 477, 690, 78.86);
             fieldSite->setStyleSheet(
@@ -103,6 +111,8 @@
             );
             QLineEdit *fieldNotes = new QLineEdit("Notes", this);
             fieldNotes->setReadOnly(1);
+            connect(fieldNotes, &QLineEdit::selectionChanged, [=]() {fieldNotes->setSelection(0, 0);
+            });
             fieldNotes->setCursor(Qt::PointingHandCursor);
             fieldNotes->setGeometry(25, 656, 690, 197.14);
             fieldNotes->setStyleSheet(
