@@ -142,6 +142,13 @@
         "border: none;"
         "}"
         );
+        connect (btnEntrySave, &QPushButton::clicked, [this]()
+        {
+            this->close();
+
+            MainWindow *win = new MainWindow();
+            win->show();
+        });
         QPushButton *btnEntryCancel = new QPushButton("Cancel",this);
         btnEntryCancel->setCursor(Qt::PointingHandCursor);
         btnEntryCancel->setGeometry(380, 900, 200, 50);
@@ -162,7 +169,7 @@
         {
             this->close();
 
-            btnEntryCancel *win = new btnEntryCancel();
+            MainWindow *win = new MainWindow();
             win->show();
         });
 

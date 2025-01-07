@@ -6,6 +6,7 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <iostream>
+#include "main_window.hpp"
 
 class AddAccount : public QMainWindow {
     Q_OBJECT
