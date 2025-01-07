@@ -52,10 +52,17 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = "G:\Progect Gui\PasswordManager\Build"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "G:\Progect Gui\PasswordManager\Build"
+=======
+CMAKE_SOURCE_DIR = C:\Users\x\PROJECTS\PasswordManager\Build
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:\Users\x\PROJECTS\PasswordManager\Build
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
 
 # Utility rule file for Test_v1_autogen.
 
@@ -67,12 +74,18 @@ include CMakeFiles/Test_v1_autogen.dir/progress.make
 
 CMakeFiles/Test_v1_autogen: Test_v1_autogen/timestamp
 
-Test_v1_autogen/timestamp: G:/Progect\ Gui/msys/mingw64/share/qt6/bin/moc.exe
-Test_v1_autogen/timestamp: G:/Progect\ Gui/msys/mingw64/share/qt6/bin/uic.exe
+Test_v1_autogen/timestamp: C:/msys64/mingw64/share/qt6/bin/moc.exe
+Test_v1_autogen/timestamp: C:/msys64/mingw64/share/qt6/bin/uic.exe
 Test_v1_autogen/timestamp: CMakeFiles/Test_v1_autogen.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Test_v1"
 	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "G:/Progect Gui/PasswordManager/Build/CMakeFiles/Test_v1_autogen.dir/AutogenInfo.json" ""
 	"C:\Program Files\CMake\bin\cmake.exe" -E touch "G:/Progect Gui/PasswordManager/Build/Test_v1_autogen/timestamp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\x\PROJECTS\PasswordManager\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Test_v1"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/x/PROJECTS/PasswordManager/Build/CMakeFiles/Test_v1_autogen.dir/AutogenInfo.json ""
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/x/PROJECTS/PasswordManager/Build/Test_v1_autogen/timestamp
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
 
 CMakeFiles/Test_v1_autogen.dir/codegen:
 .PHONY : CMakeFiles/Test_v1_autogen.dir/codegen
@@ -91,6 +104,10 @@ CMakeFiles/Test_v1_autogen.dir/clean:
 .PHONY : CMakeFiles/Test_v1_autogen.dir/clean
 
 CMakeFiles/Test_v1_autogen.dir/depend:
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "G:\Progect Gui\PasswordManager\Build" "G:\Progect Gui\PasswordManager\Build" "G:\Progect Gui\PasswordManager\Build" "G:\Progect Gui\PasswordManager\Build" "G:\Progect Gui\PasswordManager\Build\CMakeFiles\Test_v1_autogen.dir\DependInfo.cmake" "--color=$(COLOR)"
+=======
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\x\PROJECTS\PasswordManager\Build C:\Users\x\PROJECTS\PasswordManager\Build C:\Users\x\PROJECTS\PasswordManager\Build C:\Users\x\PROJECTS\PasswordManager\Build C:\Users\x\PROJECTS\PasswordManager\Build\CMakeFiles\Test_v1_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
 .PHONY : CMakeFiles/Test_v1_autogen.dir/depend
 

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 -I"G:/Progect Gui/PasswordManager/Build/Test_v1_autogen/include" -isystem "G:/Progect Gui/msys/mingw64/include/qt6/QtCore" -isystem "G:/Progect Gui/msys/mingw64/include/qt6" -isystem "G:/Progect Gui/msys/mingw64/share/qt6/mkspecs/win32-g++" -isystem "G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets" -isystem "G:/Progect Gui/msys/mingw64/include/qt6/QtGui"
+=======
+-IC:/Users/x/PROJECTS/PasswordManager/Build/Test_v1_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem "C:/msys64/mingw64/share/qt6/mkspecs/win32-g++" -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d

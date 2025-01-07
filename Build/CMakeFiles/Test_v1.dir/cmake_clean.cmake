@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj"
   "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj.d"
   "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj"
@@ -9,9 +10,21 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj.d"
   "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj.d"
+=======
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
   "CMakeFiles/Test_v1_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Test_v1_autogen.dir/ParseCache.txt"
   "Test_v1_autogen"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/add_account.cpp.obj"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/add_account.cpp.obj.d"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/entry_window.cpp.obj"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/entry_window.cpp.obj.d"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/main.cpp.obj"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/main.cpp.obj.d"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/main_window.cpp.obj"
+  "CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/main_window.cpp.obj.d"
+  "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj.d"
   "Test_v1.exe"
   "Test_v1.exe.manifest"
   "Test_v1.pdb"

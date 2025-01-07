@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj
+=======
+CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/main.cpp.obj CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/entry_window.cpp.obj CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/main_window.cpp.obj CMakeFiles/Test_v1.dir/C_/Users/x/PROJECTS/PasswordManager/add_account.cpp.obj
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d

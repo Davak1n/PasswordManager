@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: G:/Progect Gui/PasswordManager/Build
+=======
+# Install script for directory: C:/Users/x/PROJECTS/PasswordManager/Build
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +38,17 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "G:/Progect Gui/msys/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
+<<<<<<< HEAD
   file(WRITE "G:/Progect Gui/PasswordManager/Build/install_local_manifest.txt"
+=======
+  file(WRITE "C:/Users/x/PROJECTS/PasswordManager/Build/install_local_manifest.txt"
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +64,10 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+<<<<<<< HEAD
   file(WRITE "G:/Progect Gui/PasswordManager/Build/${CMAKE_INSTALL_MANIFEST}"
+=======
+  file(WRITE "C:/Users/x/PROJECTS/PasswordManager/Build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 416d004b0217bcf822cf70285e73e609bb50813d
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
