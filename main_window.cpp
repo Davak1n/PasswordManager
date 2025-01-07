@@ -48,7 +48,7 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent)
         });
         QPushButton *btniconLockingApp = new QPushButton (widgetPanelControl);
         btniconLockingApp->setCursor(Qt::PointingHandCursor);
-        btniconLockingApp->setGeometry(375, 15, 70, 70);
+        btniconLockingApp->setGeometry(355, 15, 70, 70);
         btniconLockingApp->setStyleSheet(
         "QPushButton {"                  
                 
@@ -65,6 +65,13 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent)
                 "   border-radius: 10px;"
                 "}"
         );
+        connect (btniconLockingApp, &QPushButton::clicked, [this]()
+        {
+            this->close();
+
+            EntryWindow *win = new EntryWindow();
+            win->show();
+        });
         QPushButton *btniconSettings = new QPushButton (widgetPanelControl);
         btniconSettings->setCursor(Qt::PointingHandCursor);
         btniconSettings->setGeometry(685, 15, 70, 70);

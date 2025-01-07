@@ -7,6 +7,7 @@
 #include <QLineEdit>
 #include <iostream>
 #include "add_account.hpp"
+#include "entry_window.hpp"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
