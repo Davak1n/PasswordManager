@@ -1,5 +1,8 @@
-G:/Progect\ Gui/Test\ app/Build/Test_v1_autogen/74M7SIKQ57/moc_entry_window.cpp: G:/Progect\ Gui/Test\ app/entry_window.hpp \
-  G:/Progect\ Gui/Test\ app/Build/Test_v1_autogen/moc_predefs.h \
+G:/Progect\ Gui/PasswordManager/Build/Test_v1_autogen/LDJMRYY3LV/moc_main_window.cpp: G:/Progect\ Gui/PasswordManager/main_window.hpp \
+  G:/Progect\ Gui/PasswordManager/Build/Test_v1_autogen/moc_predefs.h \
+  G:/Progect\ Gui/PasswordManager/add_account.hpp \
+  G:/Progect\ Gui/PasswordManager/entry_window.hpp \
+  G:/Progect\ Gui/PasswordManager/main_window.hpp \
   G:/Progect\ Gui/msys/mingw64/include/_mingw.h \
   G:/Progect\ Gui/msys/mingw64/include/_mingw_mac.h \
   G:/Progect\ Gui/msys/mingw64/include/_mingw_off_t.h \
@@ -155,6 +158,7 @@ G:/Progect\ Gui/Test\ app/Build/Test_v1_autogen/74M7SIKQ57/moc_entry_window.cpp:
   G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iomanip \
   G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/ios \
   G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iosfwd \
+  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iostream \
   G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/istream \
   G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iterator \
   G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/limits \

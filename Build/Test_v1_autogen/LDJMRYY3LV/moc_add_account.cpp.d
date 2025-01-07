@@ -1,5 +1,8 @@
-G:/Progect\ Gui/Test\ app/Build/Test_v1_autogen/74M7SIKQ57/moc_add_account.cpp: G:/Progect\ Gui/Test\ app/add_account.hpp \
-  G:/Progect\ Gui/Test\ app/Build/Test_v1_autogen/moc_predefs.h \
+G:/Progect\ Gui/PasswordManager/Build/Test_v1_autogen/LDJMRYY3LV/moc_add_account.cpp: G:/Progect\ Gui/PasswordManager/add_account.hpp \
+  G:/Progect\ Gui/PasswordManager/Build/Test_v1_autogen/moc_predefs.h \
+  G:/Progect\ Gui/PasswordManager/add_account.hpp \
+  G:/Progect\ Gui/PasswordManager/entry_window.hpp \
+  G:/Progect\ Gui/PasswordManager/main_window.hpp \
   G:/Progect\ Gui/msys/mingw64/include/_mingw.h \
   G:/Progect\ Gui/msys/mingw64/include/_mingw_mac.h \
   G:/Progect\ Gui/msys/mingw64/include/_mingw_off_t.h \
@@ -376,11 +379,13 @@ G:/Progect\ Gui/Test\ app/Build/Test_v1_autogen/74M7SIKQ57/moc_add_account.cpp: 
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtransform.h \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs.h \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QLineEdit \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QMainWindow \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QPushButton \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/Qlabel \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
+  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qframe.h \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qlabel.h \
   G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qlineedit.h \

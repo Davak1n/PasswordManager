@@ -1,6 +1,6 @@
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/entry_window.cpp.obj: \
- G:\Progect\ Gui\Test\ app\entry_window.cpp \
- G:\Progect\ Gui\Test\ app\entry_window.hpp \
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj: \
+ G:\Progect\ Gui\PasswordManager\main_window.cpp \
+ G:\Progect\ Gui\PasswordManager\main_window.hpp \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QMainWindow \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qmainwindow.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -431,8 +431,8 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/entry_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtextformat.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpen.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtextoption.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h \
- G:\Progect\ Gui\Test\ app\main_window.hpp \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iostream \
- G:\Progect\ Gui\Test\ app\add_account.hpp
+ G:\Progect\ Gui\PasswordManager\add_account.hpp \
+ G:\Progect\ Gui\PasswordManager\entry_window.hpp \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h

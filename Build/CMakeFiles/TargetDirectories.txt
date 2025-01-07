@@ -1,4 +1,4 @@
-G:/Progect Gui/Test app/Build/CMakeFiles/Test_v1.dir
-G:/Progect Gui/Test app/Build/CMakeFiles/edit_cache.dir
-G:/Progect Gui/Test app/Build/CMakeFiles/rebuild_cache.dir
-G:/Progect Gui/Test app/Build/CMakeFiles/Test_v1_autogen.dir
+G:/Progect Gui/PasswordManager/Build/CMakeFiles/Test_v1.dir
+G:/Progect Gui/PasswordManager/Build/CMakeFiles/edit_cache.dir
+G:/Progect Gui/PasswordManager/Build/CMakeFiles/rebuild_cache.dir
+G:/Progect Gui/PasswordManager/Build/CMakeFiles/Test_v1_autogen.dir

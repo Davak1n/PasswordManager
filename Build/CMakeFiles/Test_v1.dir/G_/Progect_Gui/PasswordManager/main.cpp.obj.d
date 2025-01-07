@@ -1,8 +1,7 @@
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
- G:\Progect\ Gui\Test\ app\main_window.cpp \
- G:\Progect\ Gui\Test\ app\main_window.hpp \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QMainWindow \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qmainwindow.h \
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj: \
+ G:\Progect\ Gui\PasswordManager\main.cpp \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QApplication \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qapplication.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtguiglobal.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qglobal.h \
@@ -172,10 +171,9 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtguiexports.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qwidget.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobjectdefs.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qnamespace.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstring.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qchar.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcompare.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcomparehelpers.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/q20type_traits.h \
@@ -206,16 +204,22 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/vector.tcc \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/array \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringview.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qbytearray.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qrefcount.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qnamespace.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qtmetamacros.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobjectdefs_impl.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qfunctionaltools_impl.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/memory \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/align.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/ostream \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/ios \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qarraydata.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qpair.h \
+ G:/Progect\ Gui/msys/mingw64/include/string.h \
+ G:/Progect\ Gui/msys/mingw64/include/sec_api/string_s.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qarraydatapointer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qarraydataops.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qxptype_traits.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/cstring \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iterator \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iosfwd \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stringfwd.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/postypes.h \
@@ -225,7 +229,8 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/_mingw_stat64.h \
  G:/Progect\ Gui/msys/mingw64/include/swprintf.inl \
  G:/Progect\ Gui/msys/mingw64/include/sec_api/wchar_s.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/char_traits.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/streambuf \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/localefwd.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/clocale \
@@ -239,6 +244,7 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/locale_classes.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/string \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/char_traits.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/ostream_insert.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/basic_string.h \
@@ -253,14 +259,19 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/system_error \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/stdexcept \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/streambuf \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/streambuf.tcc \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/memory \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/align.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/ostream \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/ios \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/basic_ios.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/locale_facets.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/cwctype \
  G:/Progect\ Gui/msys/mingw64/include/wctype.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
@@ -275,24 +286,6 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobject.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstring.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qchar.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringview.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qbytearray.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qrefcount.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qarraydata.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qpair.h \
- G:/Progect\ Gui/msys/mingw64/include/string.h \
- G:/Progect\ Gui/msys/mingw64/include/sec_api/string_s.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qarraydatapointer.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qarraydataops.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qxptype_traits.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/cstring \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iterator \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/algorithm \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_algo.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
@@ -317,36 +310,12 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringbuilder.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringconverter.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringconverter_base.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qlist.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qhashfunctions.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/numeric \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qiterator.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qbytearraylist.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringlist.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qalgorithms.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringmatcher.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qscopedpointer.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmetatype.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qdatastream.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qiodevicebase.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qfloat16.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmath.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qiterable.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmetacontainer.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcontainerinfo.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qtaggedpointer.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qscopeguard.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/list \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_list.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/list.tcc \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/map \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_tree.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_map.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobject_impl.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qbindingstorage.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcoreevent.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobjectdefs.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobjectdefs_impl.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qfunctionaltools_impl.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qdeadlinetimer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qelapsedtimer.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/chrono \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/chrono.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/ratio \
@@ -370,20 +339,66 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/span \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/unicode.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/unicode-data.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmargins.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmetatype.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qdatastream.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qscopedpointer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qiodevicebase.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qfloat16.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qhashfunctions.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/numeric \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmath.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qalgorithms.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qiterable.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmetacontainer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcontainerinfo.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qtaggedpointer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qscopeguard.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/list \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_list.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/list.tcc \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/map \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_tree.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_map.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qeventloop.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobject.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qlist.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qiterator.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qbytearraylist.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringlist.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qstringmatcher.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobject_impl.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qbindingstorage.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qnativeinterface.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qdebug.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qtextstream.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcontiguouscache.h \
+ G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/climits \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qsharedpointer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qshareddata.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qsharedpointer_impl.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmap.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qshareddata_impl.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qset.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qhash.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qvarlengtharray.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication_platform.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qpoint.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/q23utility.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qaction.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qkeysequence.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qicon.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qsize.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmargins.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qcursor.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qbitmap.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpixmap.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpaintdevice.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qrect.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qpoint.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qcolor.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qrgb.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qrgba64.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qshareddata.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qimage.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpixelformat.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtransform.h \
@@ -393,18 +408,21 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/cassert \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/q20iterator.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qline.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qguiapplication.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qinputmethod.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qlocale.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qvariant.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qdebug.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qtextstream.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcontiguouscache.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/climits \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qsharedpointer.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qsharedpointer_impl.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qmap.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qshareddata_impl.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qset.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qhash.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qvarlengtharray.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QLocale \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qlocale.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QTranslator \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qtranslator.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QMainWindow \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qmainwindow.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qwidget.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qaction.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qkeysequence.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qicon.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpalette.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qbrush.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qfont.h \
@@ -412,9 +430,8 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qfontmetrics.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qfontinfo.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qcursor.h \
- G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qbitmap.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qtabwidget.h \
+ G:\Progect\ Gui\PasswordManager\entry_window.hpp \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/Qlabel \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qlabel.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qframe.h \
@@ -431,5 +448,5 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/Test_app/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtextformat.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpen.h \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtextoption.h \
- G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iostream \
- G:\Progect\ Gui\Test\ app\add_account.hpp
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h
