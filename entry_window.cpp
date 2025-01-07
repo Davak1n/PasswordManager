@@ -18,10 +18,15 @@ EntryWindow::EntryWindow(QWidget *parent)
 
     createFieldInputs();
 }
-
+void 
+EntryWindow::stopDelay(){
+    
+    titleErrorEntry->hide();
+    delayErrorLabel->stop();
+}
 int 
 EntryWindow::processEntry () {
-    std::ifstream inputFile("data.json");
+    std::ifstream inputFile("../data.json");
 
     nlohmann::json_abi_v3_11_3::json data;
     inputFile >> data;
@@ -166,7 +171,23 @@ EntryWindow::createFieldInputs(){
                 MainWindow *win = new MainWindow();
                 win->show();
             }
-        });
+                else{
+                titleErrorEntry = new QLabel("Incorect Login or Password",this);
+                titleErrorEntry->show();
+                std::cerr<<"ju";
+                titleErrorEntry->setGeometry(123, 150, 255, 30);
+                titleErrorEntry->setStyleSheet(
+                        "QLabel {"
+                        "color: #8F1E1F;"
+                        "font-size: 20px;"
+                        "background-color:none;"
+                        "}"
+                );
+                delayErrorLabel->start(4000);
+                
+                }
+        }
+        );
         titleForgotPassword = new QPushButton ( this );
         titleForgotPassword->setCursor(Qt::PointingHandCursor);
         titleForgotPassword->setGeometry ( 292.11, 325, 158, 40 );
