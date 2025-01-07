@@ -1,0 +1,1 @@
+-I"G:/Progect Gui/Test app/Build/Control_v1.0.0_autogen/include" -isystem "G:/Progect Gui/msys/mingw64/include/qt6/QtCore" -isystem "G:/Progect Gui/msys/mingw64/include/qt6" -isystem "G:/Progect Gui/msys/mingw64/share/qt6/mkspecs/win32-g++" -isystem "G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets" -isystem "G:/Progect Gui/msys/mingw64/include/qt6/QtGui"
