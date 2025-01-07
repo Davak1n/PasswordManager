@@ -17,7 +17,7 @@ class EntryWindow : public QMainWindow {
 
     private:
     QLineEdit *fieldLogin,
-                *fieldPassword;
+              *fieldPassword;
 
     QPushButton *btnEntry,
                 *titleForgotPassword,
@@ -25,8 +25,8 @@ class EntryWindow : public QMainWindow {
 
     QLabel *titleCall;
             
-
-        void createFieldInputs();
+        int processEntry ();
+        void createFieldInputs ();
 
     QCheckBox *btnStayOnline;
 };
