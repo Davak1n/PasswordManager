@@ -19,6 +19,21 @@ EntryWindow::EntryWindow(QWidget *parent)
     createFieldInputs();
 }
 
+int 
+EntryWindow::processEntry () {
+    std::ifstream inputFile("data.json");
+
+    nlohmann::json_abi_v3_11_3::json data;
+    inputFile >> data;
+
+    std::string login = data["login"];
+    std::string password = data["password"];
+
+    if ( fieldLogin->text() == login && fieldPassword->text() == password ) 
+        return 0;
+    else
+        return 1;
+}
 
 void 
 EntryWindow::createFieldInputs(){
@@ -145,10 +160,12 @@ EntryWindow::createFieldInputs(){
         );
         connect (btnEntry, &QPushButton::clicked, [this]()
         {
-            this->close();
+            if ( processEntry() == 0 ) {
+                this->close();
 
-            MainWindow *win = new MainWindow();
-            win->show();
+                MainWindow *win = new MainWindow();
+                win->show();
+            }
         });
         titleForgotPassword = new QPushButton ( this );
         titleForgotPassword->setCursor(Qt::PointingHandCursor);
