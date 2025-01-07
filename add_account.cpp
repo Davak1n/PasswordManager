@@ -19,7 +19,7 @@
                "QLineEdit {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
-               "border: 5px solid white;" // закругление углов
+               "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
@@ -41,7 +41,7 @@
                "QLineEdit {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
-               "border: 5px solid white;" // закругление углов
+               "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
@@ -63,7 +63,7 @@
                "QLineEdit {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
-               "border: 5px solid white;" // закругление углов
+               "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
@@ -86,7 +86,7 @@
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
                "padding-bottom: 5px;" 
-               "border: 5px solid white;" // закругление углов
+               "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
@@ -109,7 +109,7 @@
                "QLineEdit {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
-               "border: 5px solid white;" // закругление углов
+               "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "padding-bottom: 146px;"  
@@ -132,7 +132,7 @@
         " QPushButton{"
         "background-color: #424242;"
         "color: white;"
-        "border: 5px solid white;"
+        "border: 2.5px solid white;"
         "font-size: 30px;"
         "border-radius: 25px;"
         "}"
@@ -155,7 +155,7 @@
         btnEntryCancel->setStyleSheet(
         " QPushButton{"
         "background-color: #424242;"
-        "border: 5px solid white;"
+        "border: 2.5px solid white;"
         "color: white;"
         "font-size: 30px;"
         "border-radius: 25px;"
