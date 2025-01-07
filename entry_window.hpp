@@ -7,6 +7,9 @@
 #include <QLineEdit>
 #include <QCheckBox>
 
+#include <fstream>
+#include <nlohmann/json.hpp>
+
 class EntryWindow : public QMainWindow {
     Q_OBJECT
 
