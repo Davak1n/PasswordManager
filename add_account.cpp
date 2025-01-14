@@ -11,23 +11,21 @@
                 "background-color:#282828;"
                 "}"
           );
-            QLineEdit *fieldTitleOfAccount = new QLineEdit("Title of account", this);
-            fieldTitleOfAccount->setReadOnly(1);
-            connect(fieldTitleOfAccount, &QLineEdit::selectionChanged, [=]() {fieldTitleOfAccount->setSelection(0, 0);
-            });
+            QPushButton *fieldTitleOfAccount = new QPushButton("Title of account", this);
             fieldTitleOfAccount->setCursor(Qt::PointingHandCursor);
             fieldTitleOfAccount->setGeometry(25, 20, 690, 78.86);
             fieldTitleOfAccount->setStyleSheet(
-               "QLineEdit {" 
+               "QPushButton {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
                "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
+               "text-align: left;"
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
                ""
                "}"
-               "QLineEdit:hover {"
+               "QPushButton:hover {"
                "background-color: white;"
                "color:black;"
                "border-radius: 9.86px;"
@@ -35,10 +33,24 @@
                "font-size: 34.5px;"
                "}"
             );
-            QLineEdit *fieldUserName = new QLineEdit("Username", this);
-            fieldUserName->setReadOnly(1);
-            connect(fieldUserName, &QLineEdit::selectionChanged, [=]() {fieldUserName->setSelection(0, 0);
-            });
+            connect(fieldTitleOfAccount, &QPushButton::clicked, this, [=](){
+            fieldTitleOfAccount->hide();
+            QLineEdit *fieldTitleOfAccountLine = new  QLineEdit("Title of account", this);
+            fieldTitleOfAccountLine->setCursor(Qt::PointingHandCursor);
+            fieldTitleOfAccountLine->setGeometry(25, 20, 690, 78.86);
+            fieldTitleOfAccountLine->setStyleSheet(
+               "QLineEdit {" 
+               "background-color: white;"
+               "color:black;"
+               "border-radius: 9.86px;"
+               "padding-left: 13px;"//отступ вводимого текста
+               "font-size: 34.5px;"
+               "}"
+               );
+               fieldTitleOfAccountLine->setFocus();
+               fieldTitleOfAccountLine->show();
+               });
+            QPushButton *fieldUserName = new QPushButton("Username", this);
             fieldUserName->setCursor(Qt::PointingHandCursor);
             fieldUserName->setGeometry(25, 199, 690, 78.86);
             fieldUserName->setStyleSheet(
@@ -59,6 +71,23 @@
                "font-size: 34.5px;"
                "}"
             );
+            connect(fieldUserName, &QPushButton::clicked, this, [=](){
+            fieldUserName->hide();
+            QLineEdit *fieldUserNameLine = new  QLineEdit("Username", this);
+            fieldUserNameLine->setCursor(Qt::PointingHandCursor);
+            fieldUserNameLine->setGeometry(25, 20, 690, 78.86);
+            fieldUserNameLine->setStyleSheet(
+               "QLineEdit {" 
+               "background-color: white;"
+               "color:black;"
+               "border-radius: 9.86px;"
+               "padding-left: 13px;"       //отступ вводимого текста
+               "font-size: 34.5px;"
+               "}"
+               );
+               fieldUserNameLine->setFocus();
+               fieldUserNameLine->show();
+               });
             QLineEdit *fieldPasword = new QLineEdit("Password", this);
             fieldPasword->setReadOnly(1);
             connect(fieldPasword, &QLineEdit::selectionChanged, [=]() {fieldPasword->setSelection(0, 0);
