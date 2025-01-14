@@ -6,6 +6,7 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <QCheckBox>
+#include <QTimer>
 
 #include <fstream>
 #include <nlohmann/json.hpp>
@@ -30,8 +31,14 @@ class EntryWindow : public QMainWindow {
             
         int processEntry ();
         void createFieldInputs ();
+    QLabel *titleErrorEntry;
 
     QCheckBox *btnStayOnline;
+
+    QTimer *delayErrorLabel;
+    
+    private slots:
+        void stopDelay();
 };
 
 #endif // ENTRYWINDOW

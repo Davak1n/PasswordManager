@@ -15,6 +15,7 @@
             fieldTitleOfAccount->setReadOnly(1);
             connect(fieldTitleOfAccount, &QLineEdit::selectionChanged, [=]() {fieldTitleOfAccount->setSelection(0, 0);
             });
+            connect(lineEdit, &QLineEdit::textChanged, this, [=]{});
             fieldTitleOfAccount->setCursor(Qt::PointingHandCursor);
             fieldTitleOfAccount->setGeometry(25, 20, 690, 78.86);
             fieldTitleOfAccount->setStyleSheet(

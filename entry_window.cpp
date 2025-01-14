@@ -18,10 +18,15 @@ EntryWindow::EntryWindow(QWidget *parent)
 
     createFieldInputs();
 }
-
+void 
+EntryWindow::stopDelay(){
+    
+    titleErrorEntry->hide();
+    delayErrorLabel->stop();
+}
 int 
 EntryWindow::processEntry () {
-    std::ifstream inputFile("../data.json"); // содержит контент файла data.json
+    std::ifstream inputFile("data.json");
 
     nlohmann::json_abi_v3_11_3::json data;
     inputFile >> data; // перенаправляем содержимое в объект data
@@ -37,6 +42,9 @@ EntryWindow::processEntry () {
 
 void 
 EntryWindow::createFieldInputs(){
+
+        delayErrorLabel = new QTimer (this);
+        connect(delayErrorLabel, &QTimer::timeout, this, &EntryWindow::stopDelay);
 
         btnStayOnline = new QCheckBox("Stay online",this);
         btnStayOnline->setCursor(Qt::PointingHandCursor);
@@ -158,15 +166,32 @@ EntryWindow::createFieldInputs(){
         "font-weight: bold;"
         "}"
         );
+        
         connect (btnEntry, &QPushButton::clicked, [this]()
         {
             if ( processEntry() == 0 ) {
                 this->close();
-
                 MainWindow *win = new MainWindow();
                 win->show();
             }
-        });
+                else{
+                delayErrorLabel->start(4000);
+                titleErrorEntry = new QLabel("Incorect Login or Password",this);
+                titleErrorEntry->setGeometry(123, 150, 270, 30);
+                titleErrorEntry->setStyleSheet(
+                        "QLabel {"
+                        "color: #8F1E1F;"
+                        "font-size: 22px;"
+                        "background-color:none;"
+                        
+                        "}"
+                );
+                titleErrorEntry->show();
+                
+                
+                }
+        }
+        );
         titleForgotPassword = new QPushButton ( this );
         titleForgotPassword->setCursor(Qt::PointingHandCursor);
         titleForgotPassword->setGeometry ( 292.11, 325, 158, 40 );
