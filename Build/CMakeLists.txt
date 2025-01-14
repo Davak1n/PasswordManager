@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 
-set(CMAKE_C_COMPILER "C:/msys64/mingw64/bin/gcc.exe")
-set(CMAKE_CXX_COMPILER "C:/msys64/mingw64/bin/g++.exe")
+set(CMAKE_C_COMPILER "G:/Progect Gui/msys/mingw64/bin/gcc.exe")
+set(CMAKE_CXX_COMPILER "G:/Progect Gui/msys/mingw64/bin/g++.exe")
 
 # Укажите минимальную версию CMake
 project(Test_v1 VERSION 0.1 LANGUAGES CXX)
@@ -19,11 +19,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 COMPONENTS Core Widgets Gui REQUIRED)
 
 # Укажите путь к установленному Qt
-set(CMAKE_PREFIX_PATH "C:/msys64/mingw64/lib/cmake/")
+set(CMAKE_PREFIX_PATH "G:/Progect Gui/msys/mingw64/lib/cmake/")
 
 #set(TS_FILES Main_ru_RU.ts)
 
-set(CMAKE_MAKE_PROGRAM "C:/msys64/mingw64/bin/mingw32-make.exe")
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+set(CMAKE_MAKE_PROGRAM "G:/Progect Gui/msys/mingw64/bin/mingw32-make.exe")
 # Автоматически добавьте все исходные файлы из директории src
 set(SOURCES 
     "../main.cpp"
@@ -34,6 +36,7 @@ set(SOURCES
     "../main_window.hpp"
     "../add_account.cpp"
     "../add_account.hpp"
+    "..//data.json"
 )
 
 # Добавьте исполняемый файл
