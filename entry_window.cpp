@@ -43,6 +43,9 @@ EntryWindow::processEntry () {
 void 
 EntryWindow::createFieldInputs(){
 
+        delayErrorLabel = new QTimer (this);
+        connect(delayErrorLabel, &QTimer::timeout, this, &EntryWindow::stopDelay);
+
         btnStayOnline = new QCheckBox("Stay online",this);
         btnStayOnline->setCursor(Qt::PointingHandCursor);
             btnStayOnline->setGeometry(50, 325, 135, 24);
@@ -163,27 +166,28 @@ EntryWindow::createFieldInputs(){
         "font-weight: bold;"
         "}"
         );
+        
         connect (btnEntry, &QPushButton::clicked, [this]()
         {
             if ( processEntry() == 0 ) {
                 this->close();
-
                 MainWindow *win = new MainWindow();
                 win->show();
             }
                 else{
+                delayErrorLabel->start(4000);
                 titleErrorEntry = new QLabel("Incorect Login or Password",this);
-                titleErrorEntry->show();
-                std::cerr<<"ju";
-                titleErrorEntry->setGeometry(123, 150, 255, 30);
+                titleErrorEntry->setGeometry(123, 150, 270, 30);
                 titleErrorEntry->setStyleSheet(
                         "QLabel {"
                         "color: #8F1E1F;"
-                        "font-size: 20px;"
+                        "font-size: 22px;"
                         "background-color:none;"
+                        
                         "}"
                 );
-                delayErrorLabel->start(4000);
+                titleErrorEntry->show();
+                
                 
                 }
         }
