@@ -299,21 +299,21 @@
 	"HEADERS" : 
 	[
 		[
-			"G:/Progect Gui/PasswordManager/add_account.hpp",
+			"G:/Progect Gui/PasswordManager/src/add_account.hpp",
 			"MU",
-			"LDJMRYY3LV/moc_add_account.cpp",
+			"XYL5EWKU4R/moc_add_account.cpp",
 			null
 		],
 		[
-			"G:/Progect Gui/PasswordManager/entry_window.hpp",
+			"G:/Progect Gui/PasswordManager/src/entry_window.hpp",
 			"MU",
-			"LDJMRYY3LV/moc_entry_window.cpp",
+			"XYL5EWKU4R/moc_entry_window.cpp",
 			null
 		],
 		[
-			"G:/Progect Gui/PasswordManager/main_window.hpp",
+			"G:/Progect Gui/PasswordManager/src/main_window.hpp",
 			"MU",
-			"LDJMRYY3LV/moc_main_window.cpp",
+			"XYL5EWKU4R/moc_main_window.cpp",
 			null
 		]
 	],
@@ -391,10 +391,10 @@
 	"SETTINGS_FILE" : "G:/Progect Gui/PasswordManager/Build/CMakeFiles/Test_v1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "G:/Progect Gui/PasswordManager/add_account.cpp", "MU", null ],
-		[ "G:/Progect Gui/PasswordManager/entry_window.cpp", "MU", null ],
-		[ "G:/Progect Gui/PasswordManager/main.cpp", "MU", null ],
-		[ "G:/Progect Gui/PasswordManager/main_window.cpp", "MU", null ]
+		[ "G:/Progect Gui/PasswordManager/src/add_account.cpp", "MU", null ],
+		[ "G:/Progect Gui/PasswordManager/src/entry_window.cpp", "MU", null ],
+		[ "G:/Progect Gui/PasswordManager/src/main.cpp", "MU", null ],
+		[ "G:/Progect Gui/PasswordManager/src/main_window.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

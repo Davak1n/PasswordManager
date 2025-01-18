@@ -7,6 +7,12 @@
 #include <QLineEdit>
 #include <iostream>
 #include<QPlainTextEdit>
+#include<QFile>
+#include<QVariantMap>
+#include<QJsonDocument>
+#include<QJsonObject>
+#include<QByteArray>
+#include<QJsonArray>
 #include "main_window.hpp"
 
 class AddAccount : public QMainWindow {
@@ -19,7 +25,13 @@ class AddAccount : public QMainWindow {
 
     private:
     QLineEdit   *fieldLogin,
-                *fieldPassword;
+                *fieldPassword,
+                *fieldTitleOfAccountLine,
+                *fieldUserNameLine,
+                *fieldPaswordLine,
+                *fieldSiteLine;
+
+    QPlainTextEdit *fieldNotesLine;
 
     QPushButton *btnEntry,
                 *titleForgotPassword,

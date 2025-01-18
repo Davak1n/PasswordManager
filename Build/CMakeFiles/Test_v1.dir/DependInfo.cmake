@@ -9,10 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "Test_v1_autogen/timestamp" "custom" "Test_v1_autogen/deps"
-  "G:/Progect Gui/PasswordManager/add_account.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj.d"
-  "G:/Progect Gui/PasswordManager/entry_window.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj.d"
-  "G:/Progect Gui/PasswordManager/main.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj.d"
-  "G:/Progect Gui/PasswordManager/main_window.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj.d"
+  "G:/Progect Gui/PasswordManager/src/add_account.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj.d"
+  "G:/Progect Gui/PasswordManager/src/entry_window.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj.d"
+  "G:/Progect Gui/PasswordManager/src/main.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj.d"
+  "G:/Progect Gui/PasswordManager/src/main_window.cpp" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj.d"
   "G:/Progect Gui/PasswordManager/Build/Test_v1_autogen/mocs_compilation.cpp" "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj.d"
   )
 

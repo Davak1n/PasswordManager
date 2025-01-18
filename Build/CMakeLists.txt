@@ -30,14 +30,10 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 set(CMAKE_MAKE_PROGRAM "G:/Progect Gui/msys/mingw64/bin/mingw32-make.exe")
 # Автоматически добавьте все исходные файлы из директории src
-set(SOURCES 
-    "../main.cpp"
-    "../entry_window.cpp"
-    "../entry_window.hpp"
-    "../main_window.cpp"
-    "../main_window.hpp"
-    "../add_account.cpp"
-    "../add_account.hpp"
+file( GLOB_RECURSE SOURCES 
+    "../src/*.cpp"
+    "../src/*.hpp"
+    
     
 )
 

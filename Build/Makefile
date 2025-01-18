@@ -141,101 +141,101 @@ Test_v1_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1_autogen.dir\build.make CMakeFiles/Test_v1_autogen.dir/build
 .PHONY : Test_v1_autogen/fast
 
-G_/Progect_Gui/PasswordManager/add_account.obj: G_/Progect_Gui/PasswordManager/add_account.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/add_account.obj
+G_/Progect_Gui/PasswordManager/src/add_account.obj: G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/add_account.obj
 
 # target to build an object file
-G_/Progect_Gui/PasswordManager/add_account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/add_account.cpp.obj
+G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj
 
-G_/Progect_Gui/PasswordManager/add_account.i: G_/Progect_Gui/PasswordManager/add_account.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/add_account.i
+G_/Progect_Gui/PasswordManager/src/add_account.i: G_/Progect_Gui/PasswordManager/src/add_account.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/add_account.i
 
 # target to preprocess a source file
-G_/Progect_Gui/PasswordManager/add_account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/add_account.cpp.i
+G_/Progect_Gui/PasswordManager/src/add_account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/add_account.cpp.i
 
-G_/Progect_Gui/PasswordManager/add_account.s: G_/Progect_Gui/PasswordManager/add_account.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/add_account.s
+G_/Progect_Gui/PasswordManager/src/add_account.s: G_/Progect_Gui/PasswordManager/src/add_account.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/add_account.s
 
 # target to generate assembly for a file
-G_/Progect_Gui/PasswordManager/add_account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/add_account.cpp.s
+G_/Progect_Gui/PasswordManager/src/add_account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/add_account.cpp.s
 
-G_/Progect_Gui/PasswordManager/entry_window.obj: G_/Progect_Gui/PasswordManager/entry_window.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/entry_window.obj
+G_/Progect_Gui/PasswordManager/src/entry_window.obj: G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/entry_window.obj
 
 # target to build an object file
-G_/Progect_Gui/PasswordManager/entry_window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/entry_window.cpp.obj
+G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj
 
-G_/Progect_Gui/PasswordManager/entry_window.i: G_/Progect_Gui/PasswordManager/entry_window.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/entry_window.i
+G_/Progect_Gui/PasswordManager/src/entry_window.i: G_/Progect_Gui/PasswordManager/src/entry_window.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/entry_window.i
 
 # target to preprocess a source file
-G_/Progect_Gui/PasswordManager/entry_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/entry_window.cpp.i
+G_/Progect_Gui/PasswordManager/src/entry_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/entry_window.cpp.i
 
-G_/Progect_Gui/PasswordManager/entry_window.s: G_/Progect_Gui/PasswordManager/entry_window.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/entry_window.s
+G_/Progect_Gui/PasswordManager/src/entry_window.s: G_/Progect_Gui/PasswordManager/src/entry_window.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/entry_window.s
 
 # target to generate assembly for a file
-G_/Progect_Gui/PasswordManager/entry_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/entry_window.cpp.s
+G_/Progect_Gui/PasswordManager/src/entry_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/entry_window.cpp.s
 
-G_/Progect_Gui/PasswordManager/main.obj: G_/Progect_Gui/PasswordManager/main.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/main.obj
+G_/Progect_Gui/PasswordManager/src/main.obj: G_/Progect_Gui/PasswordManager/src/main.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/main.obj
 
 # target to build an object file
-G_/Progect_Gui/PasswordManager/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/main.cpp.obj
+G_/Progect_Gui/PasswordManager/src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/main.cpp.obj
 
-G_/Progect_Gui/PasswordManager/main.i: G_/Progect_Gui/PasswordManager/main.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/main.i
+G_/Progect_Gui/PasswordManager/src/main.i: G_/Progect_Gui/PasswordManager/src/main.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/main.i
 
 # target to preprocess a source file
-G_/Progect_Gui/PasswordManager/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/main.cpp.i
+G_/Progect_Gui/PasswordManager/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/main.cpp.i
 
-G_/Progect_Gui/PasswordManager/main.s: G_/Progect_Gui/PasswordManager/main.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/main.s
+G_/Progect_Gui/PasswordManager/src/main.s: G_/Progect_Gui/PasswordManager/src/main.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/main.s
 
 # target to generate assembly for a file
-G_/Progect_Gui/PasswordManager/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/main.cpp.s
+G_/Progect_Gui/PasswordManager/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/main.cpp.s
 
-G_/Progect_Gui/PasswordManager/main_window.obj: G_/Progect_Gui/PasswordManager/main_window.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/main_window.obj
+G_/Progect_Gui/PasswordManager/src/main_window.obj: G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/main_window.obj
 
 # target to build an object file
-G_/Progect_Gui/PasswordManager/main_window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj
-.PHONY : G_/Progect_Gui/PasswordManager/main_window.cpp.obj
+G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj
+.PHONY : G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj
 
-G_/Progect_Gui/PasswordManager/main_window.i: G_/Progect_Gui/PasswordManager/main_window.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/main_window.i
+G_/Progect_Gui/PasswordManager/src/main_window.i: G_/Progect_Gui/PasswordManager/src/main_window.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/main_window.i
 
 # target to preprocess a source file
-G_/Progect_Gui/PasswordManager/main_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.i
-.PHONY : G_/Progect_Gui/PasswordManager/main_window.cpp.i
+G_/Progect_Gui/PasswordManager/src/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.i
+.PHONY : G_/Progect_Gui/PasswordManager/src/main_window.cpp.i
 
-G_/Progect_Gui/PasswordManager/main_window.s: G_/Progect_Gui/PasswordManager/main_window.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/main_window.s
+G_/Progect_Gui/PasswordManager/src/main_window.s: G_/Progect_Gui/PasswordManager/src/main_window.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/main_window.s
 
 # target to generate assembly for a file
-G_/Progect_Gui/PasswordManager/main_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.s
-.PHONY : G_/Progect_Gui/PasswordManager/main_window.cpp.s
+G_/Progect_Gui/PasswordManager/src/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_v1.dir\build.make CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.s
+.PHONY : G_/Progect_Gui/PasswordManager/src/main_window.cpp.s
 
 Test_v1_autogen/mocs_compilation.obj: Test_v1_autogen/mocs_compilation.cpp.obj
 .PHONY : Test_v1_autogen/mocs_compilation.obj
@@ -271,18 +271,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Test_v1_autogen
 	@echo ... Test_v1
-	@echo ... G_/Progect_Gui/PasswordManager/add_account.obj
-	@echo ... G_/Progect_Gui/PasswordManager/add_account.i
-	@echo ... G_/Progect_Gui/PasswordManager/add_account.s
-	@echo ... G_/Progect_Gui/PasswordManager/entry_window.obj
-	@echo ... G_/Progect_Gui/PasswordManager/entry_window.i
-	@echo ... G_/Progect_Gui/PasswordManager/entry_window.s
-	@echo ... G_/Progect_Gui/PasswordManager/main.obj
-	@echo ... G_/Progect_Gui/PasswordManager/main.i
-	@echo ... G_/Progect_Gui/PasswordManager/main.s
-	@echo ... G_/Progect_Gui/PasswordManager/main_window.obj
-	@echo ... G_/Progect_Gui/PasswordManager/main_window.i
-	@echo ... G_/Progect_Gui/PasswordManager/main_window.s
+	@echo ... G_/Progect_Gui/PasswordManager/src/add_account.obj
+	@echo ... G_/Progect_Gui/PasswordManager/src/add_account.i
+	@echo ... G_/Progect_Gui/PasswordManager/src/add_account.s
+	@echo ... G_/Progect_Gui/PasswordManager/src/entry_window.obj
+	@echo ... G_/Progect_Gui/PasswordManager/src/entry_window.i
+	@echo ... G_/Progect_Gui/PasswordManager/src/entry_window.s
+	@echo ... G_/Progect_Gui/PasswordManager/src/main.obj
+	@echo ... G_/Progect_Gui/PasswordManager/src/main.i
+	@echo ... G_/Progect_Gui/PasswordManager/src/main.s
+	@echo ... G_/Progect_Gui/PasswordManager/src/main_window.obj
+	@echo ... G_/Progect_Gui/PasswordManager/src/main_window.i
+	@echo ... G_/Progect_Gui/PasswordManager/src/main_window.s
 	@echo ... Test_v1_autogen/mocs_compilation.obj
 	@echo ... Test_v1_autogen/mocs_compilation.i
 	@echo ... Test_v1_autogen/mocs_compilation.s

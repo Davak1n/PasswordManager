@@ -93,82 +93,82 @@ CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.s"
 	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\Build\Test_v1_autogen\mocs_compilation.cpp" -o CMakeFiles\Test_v1.dir\Test_v1_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj: G:/Progect\ Gui/PasswordManager/main.cpp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main.cpp.obj -c "G:\Progect Gui\PasswordManager\main.cpp"
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj: G:/Progect\ Gui/PasswordManager/src/add_account.cpp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\add_account.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\add_account.cpp.obj -c "G:\Progect Gui\PasswordManager\src\add_account.cpp"
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.i"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\main.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main.cpp.i
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.i"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\src\add_account.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\add_account.cpp.i
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.s"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\main.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main.cpp.s
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.s"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\src\add_account.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\add_account.cpp.s
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj: G:/Progect\ Gui/PasswordManager/entry_window.cpp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\entry_window.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\entry_window.cpp.obj -c "G:\Progect Gui\PasswordManager\entry_window.cpp"
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj: G:/Progect\ Gui/PasswordManager/src/entry_window.cpp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\entry_window.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\entry_window.cpp.obj -c "G:\Progect Gui\PasswordManager\src\entry_window.cpp"
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.i"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\entry_window.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\entry_window.cpp.i
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.i"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\src\entry_window.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\entry_window.cpp.i
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.s"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\entry_window.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\entry_window.cpp.s
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.s"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\src\entry_window.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\entry_window.cpp.s
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj: G:/Progect\ Gui/PasswordManager/main_window.cpp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main_window.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main_window.cpp.obj -c "G:\Progect Gui\PasswordManager\main_window.cpp"
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj: G:/Progect\ Gui/PasswordManager/src/main.cpp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main.cpp.obj -c "G:\Progect Gui\PasswordManager\src\main.cpp"
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.i"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\main_window.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main_window.cpp.i
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.i"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\src\main.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main.cpp.i
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.s"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\main_window.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\main_window.cpp.s
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.s"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\src\main.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main.cpp.s
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj: G:/Progect\ Gui/PasswordManager/add_account.cpp
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\add_account.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\add_account.cpp.obj -c "G:\Progect Gui\PasswordManager\add_account.cpp"
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj: CMakeFiles/Test_v1.dir/flags.make
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj: CMakeFiles/Test_v1.dir/includes_CXX.rsp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj: G:/Progect\ Gui/PasswordManager/src/main_window.cpp
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj: CMakeFiles/Test_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="G:\Progect Gui\PasswordManager\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj -MF CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main_window.cpp.obj.d -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main_window.cpp.obj -c "G:\Progect Gui\PasswordManager\src\main_window.cpp"
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.i"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\add_account.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\add_account.cpp.i
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.i"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Progect Gui\PasswordManager\src\main_window.cpp" > CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main_window.cpp.i
 
-CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.s"
-	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\add_account.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\add_account.cpp.s
+CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.s"
+	"G:\Progect Gui\msys\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Progect Gui\PasswordManager\src\main_window.cpp" -o CMakeFiles\Test_v1.dir\G_\Progect_Gui\PasswordManager\src\main_window.cpp.s
 
 # Object files for target Test_v1
 Test_v1_OBJECTS = \
 "CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj" \
-"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj" \
-"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj" \
-"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj"
+"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj" \
+"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj" \
+"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj" \
+"CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj"
 
 # External object files for target Test_v1
 Test_v1_EXTERNAL_OBJECTS =
 
 Test_v1.exe: CMakeFiles/Test_v1.dir/Test_v1_autogen/mocs_compilation.cpp.obj
-Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main.cpp.obj
-Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/entry_window.cpp.obj
-Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj
-Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/add_account.cpp.obj
+Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/add_account.cpp.obj
+Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/entry_window.cpp.obj
+Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main.cpp.obj
+Test_v1.exe: CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/src/main_window.cpp.obj
 Test_v1.exe: CMakeFiles/Test_v1.dir/build.make
 Test_v1.exe: G:/Progect\ Gui/msys/mingw64/lib/libQt6Widgets.dll.a
 Test_v1.exe: G:/Progect\ Gui/msys/mingw64/lib/libQt6Gui.dll.a

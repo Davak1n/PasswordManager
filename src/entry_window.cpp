@@ -26,7 +26,7 @@ EntryWindow::stopDelay(){
 }
 int 
 EntryWindow::processEntry () {
-    std::ifstream inputFile("../data.json");
+    std::ifstream inputFile("../entry.json");
 
     nlohmann::json_abi_v3_11_3::json data;
     inputFile >> data; // перенаправляем содержимое в объект data

@@ -6,6 +6,8 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <iostream>
+#include<QWidget>
+#include<QString>
 #include "add_account.hpp"
 #include "entry_window.hpp"
 
@@ -18,6 +20,10 @@ class MainWindow : public QMainWindow {
         ~MainWindow ();
 
     private:
+    void updateMainWindow();
+
+    QWidget     *widgetAccounts;
+
     QLineEdit   *fieldLogin,
                 *fieldPassword;
 

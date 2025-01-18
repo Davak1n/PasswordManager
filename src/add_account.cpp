@@ -35,7 +35,7 @@
             );
             connect(fieldTitleOfAccount, &QPushButton::clicked, this, [=](){
                fieldTitleOfAccount->hide();
-               QLineEdit *fieldTitleOfAccountLine = new  QLineEdit("Title of account", this);
+               fieldTitleOfAccountLine = new  QLineEdit("Title of account", this);
                fieldTitleOfAccountLine->setCursor(Qt::PointingHandCursor);
                fieldTitleOfAccountLine->setGeometry(25, 20, 690, 78.86);
                fieldTitleOfAccountLine->setStyleSheet(
@@ -75,7 +75,7 @@
             );
             connect(fieldUserName, &QPushButton::clicked, this, [=](){
                fieldUserName->hide();
-               QLineEdit *fieldUserNameLine = new  QLineEdit("Username", this);
+               fieldUserNameLine = new  QLineEdit("Username", this);
                fieldUserNameLine->setCursor(Qt::PointingHandCursor);
                fieldUserNameLine->setGeometry(25, 199, 690, 78.86);
                fieldUserNameLine->setStyleSheet(
@@ -115,7 +115,7 @@
             );
             connect(fieldPasword, &QPushButton::clicked, this, [=](){
             fieldPasword->hide();
-            QLineEdit * fieldPaswordLine = new  QLineEdit("Password", this);
+            fieldPaswordLine = new  QLineEdit("Password", this);
             fieldPaswordLine->setCursor(Qt::PointingHandCursor);
             fieldPaswordLine->setGeometry(25, 299.86, 690, 78.86);
             fieldPaswordLine->setStyleSheet(
@@ -156,7 +156,7 @@
             );
             connect(fieldSite, &QPushButton::clicked, this, [=](){
             fieldSite->hide();
-            QLineEdit * fieldSiteLine = new  QLineEdit("Site", this);
+            fieldSiteLine = new  QLineEdit("Site", this);
             fieldSiteLine->setCursor(Qt::PointingHandCursor);
             fieldSiteLine->setGeometry(25, 477, 690, 78.86);
             fieldSiteLine->setStyleSheet(
@@ -198,7 +198,7 @@
             );
             connect(fieldNotes, &QPushButton::clicked, this, [=](){
             fieldNotes->hide();
-            QPlainTextEdit * fieldNotesLine = new  QPlainTextEdit("Notes", this);
+            fieldNotesLine = new  QPlainTextEdit("Notes", this);
             fieldNotesLine->setCursor(Qt::PointingHandCursor);
             fieldNotesLine->moveCursor(QTextCursor::End);
             fieldNotesLine->setGeometry(25, 656, 690, 197.14);
@@ -234,7 +234,53 @@
         );
         connect (btnEntrySave, &QPushButton::clicked, [this]()
         {
-            this->close();
+               QString filePath = "../data.json";
+               QJsonObject newData;
+                           newData["title"] = fieldTitleOfAccountLine->text();
+                           newData["username"] = fieldUserNameLine->text();
+                           newData["password"] = fieldPaswordLine->text();
+                           newData["site"] = fieldSiteLine->text();
+                           newData["notes"] = fieldNotesLine->toPlainText();
+
+               QFile file(filePath);
+            if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+                  qWarning() << "1:" << file.errorString();
+            return;
+    }
+
+    // Читаем содержимое файла
+    QByteArray jsonData = file.readAll();
+    file.close();
+
+    // Парсим JSON данные
+    QJsonDocument jsonDoc = QJsonDocument::fromJson(jsonData);
+    if (jsonDoc.isNull()) {
+        qWarning() << "2";
+        return;
+    }
+   
+
+    // Получаем массив
+    QJsonArray jsonArray = jsonDoc.array();
+
+    // Добавляем новый объект в массив
+    jsonArray.append(newData);
+
+    // Создаем новый JSON документ с измененным массивом
+    QJsonDocument newJsonDoc(jsonArray);
+
+    // Открываем файл для записи
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        qWarning() << "4" << file.errorString();
+        return;
+    }
+
+    // Записываем измененные данные обратно в файл
+    file.write(newJsonDoc.toJson());
+    file.close();
+
+               
+               this->close();
 
             MainWindow *win = new MainWindow();
             win->show();

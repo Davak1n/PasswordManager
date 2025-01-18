@@ -120,9 +120,42 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent)
                 "   border-radius: 5.4px;"
                 "}"
         );
-        
 
+        widgetAccounts = new QWidget (this);
+        widgetAccounts->setCursor(Qt::PointingHandCursor);
+        widgetAccounts->setGeometry(20,103,800,541);
+        widgetAccounts->setStyleSheet(
+        "QWidget {"
+        "background-color: transparent;"
+        "}"
+        );
+        updateMainWindow ();
+}        
+void MainWindow::updateMainWindow () {
+    std::ifstream inputFile("../data.json");
 
+    nlohmann::json_abi_v3_11_3::json data;
+    inputFile >> data;
+
+    for ( const auto& item : data ) {
+        if ( item.is_object() ) {
+            for ( const auto& [key, value] : item.items() ) {
+               // if ( key != "login" ) {
+                    QPushButton *btnAccount = new QPushButton ("Hi", widgetAccounts);
+                    btnAccount->setGeometry ( 0, 0, 800, 100 );
+                    btnAccount->setStyleSheet (
+                        "QPushButton {"
+                        "   background-color: #414141;"
+                        "   color: white;"
+                        "   font-size: 35px;"
+                        "}"
+                    );
+                    btnAccount->show();
+               // }
+            }
+        }
+    }
 }
+
 
 MainWindow::~MainWindow() {}
