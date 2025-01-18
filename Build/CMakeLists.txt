@@ -16,12 +16,15 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Найти Qt6
-find_package(Qt6 COMPONENTS Core Widgets Gui REQUIRED)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Network)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Network)
 
 # Укажите путь к установленному Qt
 set(CMAKE_PREFIX_PATH "G:/Progect Gui/msys/mingw64/lib/cmake/")
 
 #set(TS_FILES Main_ru_RU.ts)
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
@@ -31,12 +34,11 @@ set(SOURCES
     "../main.cpp"
     "../entry_window.cpp"
     "../entry_window.hpp"
-    "../data.json"
     "../main_window.cpp"
     "../main_window.hpp"
     "../add_account.cpp"
     "../add_account.hpp"
-    "..//data.json"
+    
 )
 
 # Добавьте исполняемый файл

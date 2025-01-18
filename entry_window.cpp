@@ -29,7 +29,7 @@ EntryWindow::processEntry () {
     std::ifstream inputFile("../data.json");
 
     nlohmann::json_abi_v3_11_3::json data;
-    inputFile >> data;
+    inputFile >> data; // перенаправляем содержимое в объект data
 
     std::string login = data["login"];
     std::string password = data["password"];

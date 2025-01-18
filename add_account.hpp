@@ -6,6 +6,7 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <iostream>
+#include<QPlainTextEdit>
 #include "main_window.hpp"
 
 class AddAccount : public QMainWindow {
@@ -25,6 +26,7 @@ class AddAccount : public QMainWindow {
                 *titleRegistration;
 
     QLabel      *titleCall;
+    
     };
 
 #endif // ADDACCOUNT

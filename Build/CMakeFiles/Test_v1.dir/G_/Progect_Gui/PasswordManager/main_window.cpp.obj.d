@@ -433,6 +433,45 @@ CMakeFiles/Test_v1.dir/G_/Progect_Gui/PasswordManager/main_window.cpp.obj: \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtextoption.h \
  G:/Progect\ Gui/msys/mingw64/include/c++/14.2.0/iostream \
  G:\Progect\ Gui\PasswordManager\add_account.hpp \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QPlainTextEdit \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qplaintextedit.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qtextedit.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtextlayout.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qevent.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcoreevent.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qeventpoint.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qvector2d.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qvectornd.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qpointingdevice.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qinputdevice.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qscreen.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QList \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qlist.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QObject \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qobject.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QRect \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qrect.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QSize \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qsize.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/QSizeF \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/QTransform \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qtransform.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qnativeinterface.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qscreen_platform.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qguiapplication.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qdeadlinetimer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qelapsedtimer.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qeventloop.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication_platform.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qinputmethod.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtCore/qlocale.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qglyphrun.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qrawfont.h \
+ G:/Progect\ Gui/msys/mingw64/include/qt6/QtGui/qfontdatabase.h \
  G:\Progect\ Gui\PasswordManager\entry_window.hpp \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox \
  G:/Progect\ Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h \

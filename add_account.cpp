@@ -34,36 +34,38 @@
                "}"
             );
             connect(fieldTitleOfAccount, &QPushButton::clicked, this, [=](){
-            fieldTitleOfAccount->hide();
-            QLineEdit *fieldTitleOfAccountLine = new  QLineEdit("Title of account", this);
-            fieldTitleOfAccountLine->setCursor(Qt::PointingHandCursor);
-            fieldTitleOfAccountLine->setGeometry(25, 20, 690, 78.86);
-            fieldTitleOfAccountLine->setStyleSheet(
-               "QLineEdit {" 
-               "background-color: white;"
-               "color:black;"
-               "border-radius: 9.86px;"
-               "padding-left: 13px;"//отступ вводимого текста
-               "font-size: 34.5px;"
-               "}"
-               );
-               fieldTitleOfAccountLine->setFocus();
-               fieldTitleOfAccountLine->show();
-               });
+               fieldTitleOfAccount->hide();
+               QLineEdit *fieldTitleOfAccountLine = new  QLineEdit("Title of account", this);
+               fieldTitleOfAccountLine->setCursor(Qt::PointingHandCursor);
+               fieldTitleOfAccountLine->setGeometry(25, 20, 690, 78.86);
+               fieldTitleOfAccountLine->setStyleSheet(
+                  "QLineEdit {" 
+                  "background-color: white;"
+                  "color:black;"
+                  "border-radius: 9.86px;"
+                  "padding-left: 13px;"//отступ вводимого текста
+                  "font-size: 34.5px;"
+                  "}"
+                  );
+                  fieldTitleOfAccountLine->setFocus();
+                  fieldTitleOfAccountLine->show();
+            });
+
             QPushButton *fieldUserName = new QPushButton("Username", this);
             fieldUserName->setCursor(Qt::PointingHandCursor);
             fieldUserName->setGeometry(25, 199, 690, 78.86);
             fieldUserName->setStyleSheet(
-               "QLineEdit {" 
+               "QPushButton {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
                "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
+               "text-align: left;"
                ""
                "}"
-               "QLineEdit:hover {"
+               "QPushButton:hover {"
                "background-color: white;"
                "color:black;"
                "border-radius: 9.86px;"
@@ -72,39 +74,38 @@
                "}"
             );
             connect(fieldUserName, &QPushButton::clicked, this, [=](){
-            fieldUserName->hide();
-            QLineEdit *fieldUserNameLine = new  QLineEdit("Username", this);
-            fieldUserNameLine->setCursor(Qt::PointingHandCursor);
-            fieldUserNameLine->setGeometry(25, 20, 690, 78.86);
-            fieldUserNameLine->setStyleSheet(
-               "QLineEdit {" 
-               "background-color: white;"
-               "color:black;"
-               "border-radius: 9.86px;"
-               "padding-left: 13px;"       //отступ вводимого текста
-               "font-size: 34.5px;"
-               "}"
-               );
-               fieldUserNameLine->setFocus();
-               fieldUserNameLine->show();
-               });
-            QLineEdit *fieldPasword = new QLineEdit("Password", this);
-            fieldPasword->setReadOnly(1);
-            connect(fieldPasword, &QLineEdit::selectionChanged, [=]() {fieldPasword->setSelection(0, 0);
+               fieldUserName->hide();
+               QLineEdit *fieldUserNameLine = new  QLineEdit("Username", this);
+               fieldUserNameLine->setCursor(Qt::PointingHandCursor);
+               fieldUserNameLine->setGeometry(25, 199, 690, 78.86);
+               fieldUserNameLine->setStyleSheet(
+                  "QLineEdit {" 
+                  "background-color: white;"
+                  "color:black;"
+                  "border-radius: 9.86px;"
+                  "padding-left: 13px;"       //отступ вводимого текста
+                  "font-size: 34.5px;"
+                  "}"
+                  );
+                  fieldUserNameLine->setFocus();
+                  fieldUserNameLine->show();
             });
+
+            QPushButton *fieldPasword = new QPushButton("Password", this);
             fieldPasword->setCursor(Qt::PointingHandCursor);
             fieldPasword->setGeometry(25, 299.86, 690, 78.86);
             fieldPasword->setStyleSheet(
-               "QLineEdit {" 
+               "QPushButton {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
                "border: 2.5px solid white;" // закругление углов
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
+               "text-align: left;"
                ""
                "}"
-               "QLineEdit:hover {"
+               "QPushButton:hover {"
                "background-color: white;"
                "color:black;"
                "border-radius: 9.86px;"
@@ -112,14 +113,28 @@
                "font-size: 34.5px;"
                "}"
             );
-            QLineEdit *fieldSite = new QLineEdit("Site", this);
-            fieldSite->setReadOnly(1);
-            connect(fieldSite, &QLineEdit::selectionChanged, [=]() {fieldSite->setSelection(0, 0);
-            });
+            connect(fieldPasword, &QPushButton::clicked, this, [=](){
+            fieldPasword->hide();
+            QLineEdit * fieldPaswordLine = new  QLineEdit("Password", this);
+            fieldPaswordLine->setCursor(Qt::PointingHandCursor);
+            fieldPaswordLine->setGeometry(25, 299.86, 690, 78.86);
+            fieldPaswordLine->setStyleSheet(
+               "QLineEdit {" 
+               "background-color: white;"
+               "color:black;"
+               "border-radius: 9.86px;"
+               "padding-left: 13px;"//отступ вводимого текста
+               "font-size: 34.5px;"
+               "}"
+               );
+               fieldPaswordLine->setFocus();
+               fieldPaswordLine->show();
+               });
+            QPushButton *fieldSite = new QPushButton("Site", this);
             fieldSite->setCursor(Qt::PointingHandCursor);
             fieldSite->setGeometry(25, 477, 690, 78.86);
             fieldSite->setStyleSheet(
-               "QLineEdit {" 
+               " QPushButton {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
                "padding-bottom: 5px;" 
@@ -127,9 +142,10 @@
                "color: white;" // цвет вводимого текста
                "padding-left: 12px;" //отступ вводимого текста
                "font-size: 34.5px;"
+               "text-align: left;"
                ""
                "}"
-               "QLineEdit:hover {"
+               " QPushButton:hover {"
                "background-color: white;"
                "color:black;"
                "border-radius: 9.86px;"
@@ -138,14 +154,29 @@
                "font-size: 34.5px;"
                "}"
             );
-            QLineEdit *fieldNotes = new QLineEdit("Notes", this);
-            fieldNotes->setReadOnly(1);
-            connect(fieldNotes, &QLineEdit::selectionChanged, [=]() {fieldNotes->setSelection(0, 0);
-            });
+            connect(fieldSite, &QPushButton::clicked, this, [=](){
+            fieldSite->hide();
+            QLineEdit * fieldSiteLine = new  QLineEdit("Site", this);
+            fieldSiteLine->setCursor(Qt::PointingHandCursor);
+            fieldSiteLine->setGeometry(25, 477, 690, 78.86);
+            fieldSiteLine->setStyleSheet(
+               "QLineEdit {" 
+               "background-color: white;"
+               "color:black;"
+               "border-radius: 9.86px;"
+               "padding-left: 13px;" //отступ вводимого текста
+               "padding-bottom: 5px;" 
+               "font-size: 34.5px;"
+               "}"
+               );
+               fieldSiteLine->setFocus();
+               fieldSiteLine->show();
+               });
+            QPushButton *fieldNotes = new QPushButton("Notes", this);
             fieldNotes->setCursor(Qt::PointingHandCursor);
             fieldNotes->setGeometry(25, 656, 690, 197.14);
             fieldNotes->setStyleSheet(
-               "QLineEdit {" 
+               "QPushButton {" 
                "background-color:#282828;" // цвет фона
                "border-radius: 9.86px;"
                "border: 2.5px solid white;" // закругление углов
@@ -153,9 +184,10 @@
                "padding-left: 12px;" //отступ вводимого текста
                "padding-bottom: 146px;"  
                "font-size: 34.5px;"
+               "text-align: left;"
                ""
                "}"
-               "QLineEdit:hover {"
+               "QPushButton:hover {"
                "background-color: white;"
                "color:black;"
                "padding-bottom: 146px;" 
@@ -164,6 +196,25 @@
                "font-size: 34.5px;"
                "}"
             );
+            connect(fieldNotes, &QPushButton::clicked, this, [=](){
+            fieldNotes->hide();
+            QPlainTextEdit * fieldNotesLine = new  QPlainTextEdit("Notes", this);
+            fieldNotesLine->setCursor(Qt::PointingHandCursor);
+            fieldNotesLine->moveCursor(QTextCursor::End);
+            fieldNotesLine->setGeometry(25, 656, 690, 197.14);
+            fieldNotesLine->setStyleSheet(
+               "QPlainTextEdit {" 
+               "background-color: white;"
+               "color:black;"
+               "border-radius: 9.86px;"
+               "padding-left: 12px;"//отступ вводимого текста
+               "font-size: 34.5px;"
+               "text-align: left;"
+               "}"
+               );
+               fieldNotesLine->setFocus();
+               fieldNotesLine->show();
+               });
         QPushButton *btnEntrySave = new QPushButton("Save",this);
         btnEntrySave->setCursor(Qt::PointingHandCursor);
         btnEntrySave->setGeometry(160, 900, 200, 50);

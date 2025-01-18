@@ -293,6 +293,11 @@ G:/Progect Gui/PasswordManager/add_account.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/pthread_signal.h
  mdp:G:/Progect Gui/msys/mingw64/include/pthread_time.h
  mdp:G:/Progect Gui/msys/mingw64/include/pthread_unistd.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QList
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QObject
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QRect
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QSize
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QSizeF
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QTimer
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/q20functional.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/q20iterator.h
@@ -325,10 +330,16 @@ G:/Progect Gui/PasswordManager/add_account.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcontainerinfo.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcontainertools_impl.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcontiguouscache.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication_platform.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcoreevent.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdarwinhelpers.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdatastream.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdeadlinetimer.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdebug.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qelapsedtimer.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qendian.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qeventloop.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qexceptionhandling.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qflags.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qfloat16.h
@@ -347,6 +358,7 @@ G:/Progect Gui/PasswordManager/add_account.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlatin1stringview.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qline.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlist.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlocale.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlogging.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qmalloc.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qmap.h
@@ -356,6 +368,7 @@ G:/Progect Gui/PasswordManager/add_account.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qmetatype.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qminmax.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qnamespace.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qnativeinterface.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qnumeric.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qobject.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qobject_impl.h
@@ -418,16 +431,26 @@ G:/Progect Gui/PasswordManager/add_account.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qversiontagging.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qxptype_traits.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qyieldcpu.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/QTransform
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qabstracttextdocumentlayout.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qaction.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qbitmap.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qbrush.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qcolor.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qcursor.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qevent.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qeventpoint.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfont.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfontdatabase.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfontinfo.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfontmetrics.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qglyphrun.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qguiapplication.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qguiapplication_platform.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qicon.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qimage.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qinputdevice.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qinputmethod.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qkeysequence.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpaintdevice.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpalette.h
@@ -435,34 +458,45 @@ G:/Progect Gui/PasswordManager/add_account.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpicture.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpixelformat.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpixmap.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpointingdevice.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpolygon.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qrawfont.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qregion.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qrgb.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qrgba64.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qscreen.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qscreen_platform.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextcursor.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextdocument.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextformat.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextlayout.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextoption.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtgui-config.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtguiexports.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtguiglobal.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtransform.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qvector2d.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qvectornd.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs_win.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QLineEdit
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QMainWindow
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QPlainTextEdit
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QPushButton
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QLabel
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qabstractbutton.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qframe.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qlabel.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qlineedit.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qmainwindow.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qplaintextedit.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qpushbutton.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qsizepolicy.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtabwidget.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtextedit.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgets-config.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h
@@ -1267,6 +1301,11 @@ G:/Progect Gui/PasswordManager/main_window.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/pthread_signal.h
  mdp:G:/Progect Gui/msys/mingw64/include/pthread_time.h
  mdp:G:/Progect Gui/msys/mingw64/include/pthread_unistd.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QList
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QObject
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QRect
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QSize
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QSizeF
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/QTimer
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/q20functional.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/q20iterator.h
@@ -1299,10 +1338,16 @@ G:/Progect Gui/PasswordManager/main_window.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcontainerinfo.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcontainertools_impl.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcontiguouscache.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcoreapplication_platform.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qcoreevent.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdarwinhelpers.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdatastream.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdeadlinetimer.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qdebug.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qelapsedtimer.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qendian.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qeventloop.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qexceptionhandling.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qflags.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qfloat16.h
@@ -1321,6 +1366,7 @@ G:/Progect Gui/PasswordManager/main_window.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlatin1stringview.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qline.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlist.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlocale.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qlogging.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qmalloc.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qmap.h
@@ -1330,6 +1376,7 @@ G:/Progect Gui/PasswordManager/main_window.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qmetatype.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qminmax.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qnamespace.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qnativeinterface.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qnumeric.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qobject.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qobject_impl.h
@@ -1392,16 +1439,26 @@ G:/Progect Gui/PasswordManager/main_window.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qversiontagging.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qxptype_traits.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtCore/qyieldcpu.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/QTransform
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qabstracttextdocumentlayout.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qaction.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qbitmap.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qbrush.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qcolor.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qcursor.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qevent.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qeventpoint.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfont.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfontdatabase.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfontinfo.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qfontmetrics.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qglyphrun.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qguiapplication.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qguiapplication_platform.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qicon.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qimage.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qinputdevice.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qinputmethod.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qkeysequence.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpaintdevice.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpalette.h
@@ -1409,34 +1466,45 @@ G:/Progect Gui/PasswordManager/main_window.hpp
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpicture.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpixelformat.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpixmap.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpointingdevice.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qpolygon.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qrawfont.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qregion.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qrgb.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qrgba64.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qscreen.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qscreen_platform.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextcursor.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextdocument.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextformat.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextlayout.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtextoption.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtgui-config.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtguiexports.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtguiglobal.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qtransform.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qvector2d.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qvectornd.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtGui/qwindowdefs_win.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QCheckBox
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QLineEdit
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QMainWindow
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QPlainTextEdit
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QPushButton
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/QLabel
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qabstractbutton.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qframe.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qlabel.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qlineedit.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qmainwindow.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qplaintextedit.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qpushbutton.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qsizepolicy.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtabwidget.h
+ mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtextedit.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgets-config.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h
  mdp:G:/Progect Gui/msys/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h
