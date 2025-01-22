@@ -43,13 +43,14 @@ EntryWindow::processEntry () {
 void 
 EntryWindow::createFieldInputs(){
 
-        delayErrorLabel = new QTimer (this);
-        connect(delayErrorLabel, &QTimer::timeout, this, &EntryWindow::stopDelay);
+    delayErrorLabel = new QTimer (this);
 
-        btnStayOnline = new QCheckBox("Stay online",this);
+    connect(delayErrorLabel, &QTimer::timeout, this, &EntryWindow::stopDelay);
+
+    btnStayOnline = new QCheckBox("Stay online",this);
         btnStayOnline->setCursor(Qt::PointingHandCursor);
-            btnStayOnline->setGeometry(50, 325, 135, 24);
-             btnStayOnline->setStyleSheet (  
+        btnStayOnline->setGeometry(50, 325, 135, 24);
+        btnStayOnline->setStyleSheet (  
             "QCheckBox {"     
             "   color: #414141;"                
             "   font-size: 20px;"
@@ -116,13 +117,14 @@ EntryWindow::createFieldInputs(){
         });
 
         titleCall = new QLabel("Welcome",this);
-        titleCall->setGeometry(160, 92, 178, 53);
-        titleCall->setStyleSheet(
-            "QLabel {"
-            "color: white;"
-            "font-size: 43px;"
-            "}"
-        );
+            titleCall->setGeometry(160, 92, 178, 53);
+            titleCall->setStyleSheet(
+                "QLabel {"
+                "color: white;"
+                "font-size: 43px;"
+                "}"
+            );
+            
         fieldLogin = new QLineEdit(this);
             fieldLogin->setPlaceholderText("Login");
             fieldLogin->setGeometry(50, 185, 400, 50);
