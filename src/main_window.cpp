@@ -137,7 +137,7 @@ void MainWindow::updateMainWindow () {
     nlohmann::json_abi_v3_11_3::json data;
     inputFile >> data;
 
-    for ( const auto& item : data ) {
+ for ( const auto& item : data ) {
         if ( item.is_object() ) {
             for ( const auto& [key, value] : item.items() ) {
                // if ( key != "login" ) {

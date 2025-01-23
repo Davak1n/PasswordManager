@@ -1,4 +1,6 @@
 {
-    "login":"q",
-    "password":"1"
+    "Account yandex": ["Ivan", 
+                        "qwerty123", 
+                        "google.com", 
+                        "i'm ivan"]
 }
