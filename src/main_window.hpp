@@ -2,12 +2,12 @@
 #define MAINWINDOW_HPP
 
 #include <QMainWindow>
-#include <Qlabel>
+#include <QLabel>
 #include <QPushButton>
 #include <QLineEdit>
 #include <iostream>
-#include<QWidget>
-#include<QString>
+#include <QWidget>
+#include <QString>
 #include "add_account.hpp"
 #include "entry_window.hpp"
 
