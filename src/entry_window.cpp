@@ -26,18 +26,7 @@ EntryWindow::stopDelay(){
 }
 int 
 EntryWindow::processEntry () {
-    std::ifstream inputFile("../entry.json");
-
-    nlohmann::json_abi_v3_11_3::json data;
-    inputFile >> data; // перенаправляем содержимое в объект data
-
-    std::string login = data["login"];
-    std::string password = data["password"];
-
-    if ( fieldLogin->text() == login && fieldPassword->text() == password ) 
-        return 0;
-    else
-        return 1;
+    
 }
 
 void 
@@ -78,7 +67,7 @@ EntryWindow::createFieldInputs(){
             "   color: white;"
             "}"
         );
-        connect ( btnStayOnline, QCheckBox::checkStateChanged, this, [this]() {
+        connect ( btnStayOnline, &QCheckBox::stateChanged, this, [this]() {
             btnStayOnline->checkState() ? btnStayOnline->setStyleSheet(
                 "QCheckBox {"
                 "   color: white;"
