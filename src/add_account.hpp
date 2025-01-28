@@ -2,7 +2,7 @@
 #define ADDACCOUNT_HPP
 
 #include <QMainWindow>
-#include <Qlabel>
+#include <QLabel>
 #include <QPushButton>
 #include <QLineEdit>
 #include <iostream>

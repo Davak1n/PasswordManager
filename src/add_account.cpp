@@ -233,58 +233,8 @@
         "}"
         );
         connect (btnEntrySave, &QPushButton::clicked, [this]()
-        {
-               QString filePath = "../data.json";
-               QJsonObject newData;
-                           newData["title"] = fieldTitleOfAccountLine->text();
-                           newData["username"] = fieldUserNameLine->text();
-                           newData["password"] = fieldPaswordLine->text();
-                           newData["site"] = fieldSiteLine->text();
-                           newData["notes"] = fieldNotesLine->toPlainText();
-
-               QFile file(filePath);
-            if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-                  qWarning() << "1:" << file.errorString();
-            return;
-    }
-
-    // Читаем содержимое файла
-    QByteArray jsonData = file.readAll();
-    file.close();
-
-    // Парсим JSON данные
-    QJsonDocument jsonDoc = QJsonDocument::fromJson(jsonData);
-    if (jsonDoc.isNull()) {
-        qWarning() << "2";
-        return;
-    }
-   
-
-    // Получаем массив
-    QJsonArray jsonArray = jsonDoc.array();
-
-    // Добавляем новый объект в массив
-    jsonArray.append(newData);
-
-    // Создаем новый JSON документ с измененным массивом
-    QJsonDocument newJsonDoc(jsonArray);
-
-    // Открываем файл для записи
-    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-        qWarning() << "4" << file.errorString();
-        return;
-    }
-
-    // Записываем измененные данные обратно в файл
-    file.write(newJsonDoc.toJson());
-    file.close();
-
-               
-               this->close();
-
-            MainWindow *win = new MainWindow();
-            win->show();
-        });
+        {});
+        
         QPushButton *btnEntryCancel = new QPushButton("Cancel",this);
         btnEntryCancel->setCursor(Qt::PointingHandCursor);
         btnEntryCancel->setGeometry(380, 900, 200, 50);
