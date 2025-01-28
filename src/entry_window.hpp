@@ -9,7 +9,6 @@
 #include <QTimer>
 
 #include <fstream>
-#include <nlohmann/json.hpp>
 
 class EntryWindow : public QMainWindow {
     Q_OBJECT
