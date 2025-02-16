@@ -22,11 +22,12 @@ class EntryWindow : public QMainWindow {
     QLineEdit *fieldLogin,
               *fieldPassword;
 
-    QPushButton *btnEntry,
-                *titleForgotPassword,
-                *titleRegistration;
+    QPushButton *btnEntry;
+    
 
-    QLabel *titleCall;
+    QLabel *titleCall,
+            *titleForgotPassword,
+            *titleRegistration;
             
         int processEntry ();
         void createFieldInputs ();

@@ -24,6 +24,9 @@ class AddAccount : public QMainWindow {
         ~AddAccount ();
 
     private:
+
+        void openFileWrite(QString title, QString username, QString password, QString site, QString notes);
+
     QLineEdit   *fieldLogin,
                 *fieldPassword,
                 *fieldTitleOfAccountLine,

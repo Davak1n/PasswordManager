@@ -158,7 +158,21 @@ EntryWindow::createFieldInputs(){
         
         connect (btnEntry, &QPushButton::clicked, [this]()
         {
-            if ( processEntry() == 0 ) {
+
+                QString filePath = "entry.json";
+
+                QFile file (filePath);
+                file.open (QIODevice::ReadOnly);
+
+                QByteArray fileData = file.readAll ();
+
+                file.close ();
+
+                QJsonDocument jsonDoc = QJsonDocument::fromJson(fileData);
+
+                QJsonObject jsonObject = jsonDoc.object ();
+    
+            if ( jsonObject["login"].toString()==fieldLogin->text() && jsonObject["password"].toString()==fieldPassword->text() ) {
                 this->close();
                 MainWindow *win = new MainWindow();
                 win->show();
@@ -181,47 +195,34 @@ EntryWindow::createFieldInputs(){
                 }
         }
         );
-        titleForgotPassword = new QPushButton ( this );
+        titleForgotPassword = new QLabel ( "<u>Forget password?</u>",this );
         titleForgotPassword->setCursor(Qt::PointingHandCursor);
         titleForgotPassword->setGeometry ( 292.11, 325, 158, 40 );
         titleForgotPassword->setStyleSheet (  
-            "QPushButton {"                  
-                "   background-color: #282828;"  
-                "   border: none;"
-                "   background-image: url(img/nolink.png);"
-                "   background-position: center;"
-                "   background-repeat: no-repeat;"
+            "QLabel {"                  
+                "    background-color: none;"  
+                "    color:#A9A9A9;"
+                "    font-size: 20px;"
             "}"
-
-            "QPushButton:hover {"                  
-                "   background-color: #282828;"  
-                "   border: none;"
-                "   background-image: url(img/link.png);"
-                "   background-position: center;"
-                "   background-repeat: no-repeat;"
+            "QLabel:hover {"                  
+                "   color: white;"
             "}"
 
             
         );
 
-            titleRegistration = new QPushButton (  this );
+            titleRegistration = new QLabel ("<u>Registration</u>",  this );
             titleRegistration->setCursor(Qt::PointingHandCursor);
             titleRegistration->setGeometry ( 194, 459, 112, 28 );
             titleRegistration->setStyleSheet (  
-            "QPushButton {"                  
-                "   background-color: #282828;"  
-                "   border: none;"
-                "   background-image: url(img/nolink2.png);"
-                "   background-position: center;"
-                "   background-repeat: no-repeat;"
+            "QLabel {"                  
+                "   background-color: none;"  
+                "   color:#A9A9A9;"
+                "   font-size: 20px;"
             "}"
 
-            "QPushButton:hover {"                  
-                "   background-color: #282828;"  
-                "   border: none;"
-                "   background-image: url(img/link2.png);"
-                "   background-position: center;"
-                "   background-repeat: no-repeat;"
+            "QLabel:hover {"                  
+                 "   color: white;"
             "}"
 
             

@@ -207,9 +207,10 @@
                "background-color: white;"
                "color:black;"
                "border-radius: 9.86px;"
-               "padding-left: 12px;"//отступ вводимого текста
+               "padding-left: 11px;"//отступ вводимого текста
                "font-size: 34.5px;"
-               "text-align: left;"
+               "padding-top: -2px;"
+               "padding-right: 1px;"
                "}"
                );
                fieldNotesLine->setFocus();
@@ -234,57 +235,14 @@
         );
         connect (btnEntrySave, &QPushButton::clicked, [this]()
         {
-               QString filePath = "../data.json";
-               QJsonObject newData;
-                           newData["title"] = fieldTitleOfAccountLine->text();
-                           newData["username"] = fieldUserNameLine->text();
-                           newData["password"] = fieldPaswordLine->text();
-                           newData["site"] = fieldSiteLine->text();
-                           newData["notes"] = fieldNotesLine->toPlainText();
-
-               QFile file(filePath);
-            if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-                  qWarning() << "1:" << file.errorString();
-            return;
-    }
-
-    // Читаем содержимое файла
-    QByteArray jsonData = file.readAll();
-    file.close();
-
-    // Парсим JSON данные
-    QJsonDocument jsonDoc = QJsonDocument::fromJson(jsonData);
-    if (jsonDoc.isNull()) {
-        qWarning() << "2";
-        return;
-    }
-   
-
-    // Получаем массив
-    QJsonArray jsonArray = jsonDoc.array();
-
-    // Добавляем новый объект в массив
-    jsonArray.append(newData);
-
-    // Создаем новый JSON документ с измененным массивом
-    QJsonDocument newJsonDoc(jsonArray);
-
-    // Открываем файл для записи
-    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-        qWarning() << "4" << file.errorString();
-        return;
-    }
-
-    // Записываем измененные данные обратно в файл
-    file.write(newJsonDoc.toJson());
-    file.close();
-
-               
-               this->close();
-
-            MainWindow *win = new MainWindow();
-            win->show();
+            openFileWrite (fieldTitleOfAccountLine->text(),
+                           fieldUserNameLine->text(),
+                           fieldPaswordLine->text(),
+                           fieldSiteLine->text(),
+                           fieldNotesLine->toPlainText()
+                           );
         });
+
         QPushButton *btnEntryCancel = new QPushButton("Cancel",this);
         btnEntryCancel->setCursor(Qt::PointingHandCursor);
         btnEntryCancel->setGeometry(380, 900, 200, 50);
@@ -308,8 +266,38 @@
             MainWindow *win = new MainWindow();
             win->show();
         });
-
-
-
 }
+
+void AddAccount::openFileWrite(QString title, QString username, QString password, QString site, QString notes){
+   QString filePath = "../data.json";
+
+   QFile file (filePath);
+   file.open (QIODevice::ReadOnly);
+
+   QByteArray fileData = file.readAll ();
+
+   file.close ();
+
+   QJsonDocument jsonDoc = QJsonDocument::fromJson(fileData);
+
+   QJsonObject jsonObject = jsonDoc.object ();
+
+   QString newKey = title;
+   QJsonArray newData = {username, password, site, notes};
+
+   if (jsonObject.contains(newKey)){
+      jsonObject[newKey] = newData; // если ключ существует, обновляем значения
+   } 
+   else{
+      jsonObject.insert (newKey, newData);// если ключ не существует, создаем новый
+   }
+
+   jsonDoc.setObject (jsonObject);
+   file.open (QIODevice::WriteOnly);
+
+   file.write (jsonDoc.toJson(QJsonDocument::Indented));
+   file.close ();
+}
+
+
 AddAccount::~AddAccount() {}

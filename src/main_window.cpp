@@ -122,7 +122,6 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent)
         );
 
         widgetAccounts = new QWidget (this);
-        widgetAccounts->setCursor(Qt::PointingHandCursor);
         widgetAccounts->setGeometry(20,103,800,541);
         widgetAccounts->setStyleSheet(
         "QWidget {"
@@ -132,6 +131,38 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent)
         updateMainWindow ();
 }        
 void MainWindow::updateMainWindow () {
+    
+    QString filePath = "data.json";
+
+    QFile file(filePath);
+
+    file.open(QIODevice::ReadOnly);
+
+    QByteArray fileData = file.readAll ();
+
+    QJsonDocument jsonDoc = QJsonDocument::fromJson(fileData);
+
+    QJsonObject jsonObject = jsonDoc.object();
+
+    int margin = 103;
+
+    for( const QString &key : jsonObject.keys()) {
+       
+       QPushButton *btnAccount = new QPushButton (key, this);
+        btnAccount -> setGeometry(20, margin, 800, 100);
+        btnAccount ->setCursor(Qt::PointingHandCursor);
+        btnAccount -> setStyleSheet(
+        "QPushButton {"    
+        "background-color: #414141;" 
+        "color: white;"
+        "font-size: 35px;"
+        "border-radius: 15px;"
+        "border:none;"
+        "}"   
+        );
+
+        margin+=120;
+    }
     
 }
 

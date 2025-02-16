@@ -8,8 +8,15 @@
 #include <iostream>
 #include <QWidget>
 #include <QString>
+#include<QFile>
+#include<QJsonDocument>
+#include<QJsonObject>
+#include<QByteArray>
+#include<QJsonArray>
+#include<QDebug>
 #include "add_account.hpp"
 #include "entry_window.hpp"
+
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
